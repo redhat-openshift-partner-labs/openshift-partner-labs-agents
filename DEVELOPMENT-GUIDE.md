@@ -11,8 +11,9 @@ Backend (Agno Agent Service): The brain of the operation. Built using the Agno A
 Database (MySQL): The persistence layer where the final, validated form data is stored.
 
 Code snippet
-View 30k overview render here: https://www.mermaidchart.com/d/4cdf0110-9c3b-4c3c-9099-5668879ef99d
+View 30k overview render:
 
+```mermaid
 graph TD
     subgraph Frontend
         A[Chat UI - React/Vue/etc.]
@@ -37,6 +38,7 @@ graph TD
     C -- Executes Action --> F
     F -- Uses --> G
     G -- CRUD Operations --> H
+```
 
 
 
