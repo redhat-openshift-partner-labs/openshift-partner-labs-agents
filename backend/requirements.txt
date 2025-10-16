@@ -1,0 +1,38 @@
+# Core Agno and AI dependencies
+agno>=2.0.0
+openai>=1.0.0
+ag-ui-protocol>=0.1.0
+ollama>=0.1.0
+
+# FastAPI and web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# Database dependencies
+sqlalchemy>=2.0.0
+mysql-connector-python>=8.0.0
+alembic>=1.12.0
+
+# Session management and caching
+redis>=5.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# HTTP client for external API calls
+httpx>=0.25.0
+
+# Date and time utilities
+python-dateutil>=2.8.0
+
+# Validation and data processing
+email-validator>=2.0.0
+pytz>=2023.3
+
+# Development and testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
